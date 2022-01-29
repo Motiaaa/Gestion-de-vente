@@ -1,0 +1,127 @@
+*{  
+    box-sizing: border-box;
+    transition: all ease-in-out 300ms;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#b6b6b6 ;
+}
+section{
+    padding: 0 1em 1em;
+    margin-bottom: 4em;
+}
+
+.sec2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sec2 h3{
+    margin: 1em 0 2em 0 ;
+    color: #363636;
+    text-transform: capitalize;
+}
+footer{
+    text-align: center;
+}
+
+.form{
+    width: 20em;
+    height: 3em;
+    position: relative;
+    margin-bottom: 1em;
+}
+.form input{
+    width: 100%;
+    height:100% ;
+    background: transparent;
+    border:2px solid #02F2D2  ;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 .5em;
+    font-size: 1.3em;
+}
+.form label{
+    position: absolute;
+    top: -.5em;
+    left:1em;
+    color: #2b2b2b;
+    background: #b6b6b6 ;
+    padding: 0 .3em;
+    text-transform: capitalize;
+    transition: top 300ms;
+}
+
+.form select {
+    padding: .5em 4em;
+    color: #242424;
+    background: #f7f7f7;
+    border:  1px solid #e4e4e4;
+    outline: #e4e4e4;
+    cursor: pointer;
+    border-radius: .2em;
+    float: right;
+}
+
+
+/* table */
+table{
+    margin: 1.5em auto;
+   }
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th,
+.table td{
+    padding: 10px 4px;
+    border: 1px solid #8f8f8f;
+    text-align: center;
+    font-size: 1em;
+}
+.table th,
+.table td:last-child{
+    border-bottom: 1px solid #838383;
+}
+.table th{
+    background: #02C8E8;
+    color: white;
+}
+.table tbody tr:nth-child(even){
+    background-color: #f0f0f0;
+}
+
+.btn{
+    color: #1f1f1f;
+    background: #02F2D2;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: none;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: .6em .8em;
+    
+}
+
+.btn:hover{
+   
+    background: black;
+    color: rgb(255, 255, 255);
+}
+
+.b1{
+    background-color: coral;
+    border-radius: 0.2em;
+    border: none;
+}
+.b2{
+    background-color: #69cbf1;
+    border-radius: 0.2em;
+    border: none;
+}
+
