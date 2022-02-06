@@ -11,3 +11,5 @@
 5 : you can import file sql exit vente/vente.sql
 
 6 : table clients categories produits commandes
+
+https://motiaaa.github.io/Gestion-de-vente/
