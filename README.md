@@ -1,5 +1,7 @@
 # Gestion-de-vente
 
+Application web
+
 1 : you have interface to login and register
 
 2 : language : php html css mySQL
