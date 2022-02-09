@@ -12,4 +12,4 @@
 
 6 : table clients categories produits commandes
 
-https://motiaaa.github.io/Gestion-de-vente/
+https://motiaaa.github.io/Gestion-de-vente/ gitHub page
